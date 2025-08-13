@@ -8,12 +8,6 @@ jobs:
     steps:
       - uses: cloudbees-io/register-deployed-artifact@v1
         with:
-          name: qe-artifact
-          version: QE-23.6.1
-          url: 020229604682.dkr.ecr.us-east-1.amazonaws.com/throwaway/actions/vulnerable-image:QE-23.6.1
-          target-environment: aspm-pre-production
-      - uses: cloudbees-io/register-deployed-artifact@v1
-        with:
           name: qe-artifact2
           version: QE-23.7.4
           url: 020229604682.dkr.ecr.us-east-1.amazonaws.com/throwaway/actions/vulnerable-image:QE-23.7.4
