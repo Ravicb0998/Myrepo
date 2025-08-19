@@ -10,5 +10,5 @@ jobs:
         with:
           name: qe-artifact2
           version: QE-23.7.4
-          url: 020229604682.dkr.ecr.us-east-1.amazonaws.com/throwaway/actions/vulnerable-image:QE-23.7.4
-          target-environment: aspm-pre-production
+          url: 020229604682.dkr.ecr.us-east-1.amazonaws.com/throwaway/actions/vulnerable-image:QE-23.8.0
+          target-environment: aspm-pre-production,
