@@ -8,6 +8,6 @@ jobs:
     steps:
       - uses: cloudbees-io/register-deployed-artifact@v2
         with:
-          labels: new-vulnerablegorepo4gh
+          labels: newApp4gh
           artifact-id: c132cfe6-f691-4dda-ad3d-3676a972e39c
           target-environment: aspm-pre-production
