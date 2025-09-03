@@ -14,5 +14,5 @@ jobs:
       - uses: cloudbees-io/register-deployed-artifact@v2
         with:
           labels: newApp24gh
-          artifact-id: fe8655b1-b5c9-4e24-8ea7-673b2ec4bba1
+          artifact-id: 3c15671d-e545-475b-9e6d-6501d26e33d4
           target-environment: aspm-pre-production
